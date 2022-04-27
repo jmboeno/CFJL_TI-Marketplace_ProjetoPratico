@@ -1,0 +1,148 @@
+@media(max-width: 1024px){
+	.menu{font-size: .9rem;}
+	.menu_esquerdo{font-size: .9rem;}
+	.area_direita{font-size: .9rem;}
+	.anuncio{height: 400px;}
+	.anuncio img {height: 170px;}
+
+	.area_direita {width: 70%;}
+}
+@media(max-width: 952px){
+	.area_direita{width: 71.37383%;}
+	.carrinho{width: 69%;}
+}
+@media(max-width: 800px){
+	header{
+		height: 55px;
+		background-color: rgba(102, 51, 153, 1);
+	}
+	label[for="bt_menu"]{
+		display: block;
+	}
+	#bt_menu:checked ~ .menu{
+		margin-left: 0;
+	}
+	.menu{
+		border-top: 1px solid #ccc;
+		margin-left: -100%;
+		transition: all .4s;
+	}
+	.menu ul{
+		float: none!important;
+	}
+	.menu ul li{
+		width: 100%!important;
+	}
+	.menu ul ul{
+		position: static;
+		overflow: hidden;
+		max-height: 0;
+		transition: all .4s;
+	}
+	.menu ul li:hover ul{
+		height: auto;
+		max-height: 300px;
+		width: 100%!important;
+	}
+	.menu ul li a{
+		text-align: left;
+	}
+	.anuncio{
+		height: 430px;
+		width: 47%;
+	}
+	.anuncio img{
+		height: 200px;
+	}
+	.busca{
+		padding: 10px 0px;
+		text-align: center;
+	}
+	.busca input{
+		width: 70%!important;
+	}
+	.busca button{
+		width: 10%!important;
+	}
+	.banner{
+		display: none;
+	}
+	.logo {
+    	text-align: center;
+    	height: 7px;
+    	padding-left: 34px;
+	}
+	.logo img {
+	    position: relative;
+		width: 65px;
+		bottom: 54px;
+	}
+	.logo h2 {
+	    position: relative;
+		bottom: 97px;
+		right: 17px;
+		color: #fff;
+		font-size: 1em;
+	}
+	.menu_esquerdo{
+		width: 100%;
+	}
+	.area_direita{
+		width: 100%;
+		margin: 0 auto 50px;
+	}
+	.carrinho, .resumo_carrinho{
+		width: 95%;
+		margin: 50px auto;
+	}
+	.resumo_carrinho{
+		margin: 10px auto;
+	}
+	.descricao {
+		height: 62px;
+	}
+	.produto_info{
+		margin-bottom: 0;
+		text-align: center;
+	}
+	.produto_info_images,.produto_info_pay{
+		width: 100%;
+	}
+}
+@media(max-width: 768px){
+	.banner img{
+	    height: 9em;
+	    width: 100%;
+	    margin: 4em 0;
+	}
+	.anuncio h2{
+		font-size: 1.5rem!important;
+	}
+	.anuncio h3{
+		height: 28px;
+		overflow: hidden;
+	}
+	.carrinho{
+		overflow: scroll;
+	}
+	.anuncio {
+		height: 357px;
+	}
+	.descricao {
+		height: 47px;
+	}
+}
+@media(max-width: 480px){
+	.anuncio{
+		width: 100%;
+	}
+	.produto_info_pay{
+		padding: 0;
+	}
+	.produto_info_pay form {
+    	width: 100%;
+	}
+	.pagseguro_img{
+		width: 100%;
+	}
+}
